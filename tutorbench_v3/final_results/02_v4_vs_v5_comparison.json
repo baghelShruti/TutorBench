@@ -1,0 +1,22 @@
+{
+  "analysis_date": "2026-04-16",
+  "comparison": "v4 (old judge) vs v5 (fixed judge)",
+  "v5_models_completed": 7,
+  "v5_models_pending": ["Qwen 3 Next 80B", "GPT-5.4", "GPT-5.4 mini", "DeepSeek-R1", "Claude Sonnet 4.5", "Gemini 2.5 Pro"],
+  "results": [
+    {"model": "Gemma 4 26B A4B",  "v4": 0.50, "v5": 0.52, "delta": "+0.02", "direction": "stable"},
+    {"model": "GPT-5.4 nano",     "v4": 0.44, "v5": 0.45, "delta": "+0.01", "direction": "stable"},
+    {"model": "Claude Sonnet 4",  "v4": 0.32, "v5": 0.28, "delta": "-0.04", "direction": "slight_drop"},
+    {"model": "Gemini 2.5 Flash", "v4": 0.36, "v5": 0.22, "delta": "-0.14", "direction": "BIG_DROP"},
+    {"model": "Gemma 4 31B",      "v4": 0.21, "v5": 0.26, "delta": "+0.05", "direction": "moderate_rise"},
+    {"model": "Claude Haiku 4.5", "v4": 0.25, "v5": 0.22, "delta": "-0.03", "direction": "slight_drop"},
+    {"model": "Claude Sonnet 4.6","v4": 0.22, "v5": 0.25, "delta": "+0.03", "direction": "slight_rise"}
+  ],
+  "key_observations": [
+    "The fix did NOT produce dramatic jumps in bottom-ranked models as Claude predicted",
+    "Gemini 2.5 Flash dropped significantly (0.36 → 0.22) suggesting old judge was artificially inflating its score",
+    "Top model (Gemma 4 26B) is stable at 0.50-0.52 — the fix didn't break working models",
+    "The overall pattern (open-weight > proprietary) still holds",
+    "CRITICAL: Claude Sonnet 4.5 (the key test model) has NOT been run on v5 yet"
+  ]
+}

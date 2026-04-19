@@ -1,0 +1,193 @@
+{
+  "result": {
+    "confusion": {
+      "tp": 11,
+      "fp": 1,
+      "tn": 20,
+      "fn": 8,
+      "total": 40
+    },
+    "accuracy": 0.775,
+    "precision": 0.9166666666666666,
+    "recall": 0.5789473684210527,
+    "f1": 0.7096774193548387,
+    "cohens_kappa": 0.5408163265306123,
+    "layer_true_positives": {
+      "lcs": 0,
+      "direct": 6,
+      "arith": 6,
+      "sym": 0,
+      "judge": 0
+    },
+    "layer_false_positives": {
+      "lcs": 0,
+      "direct": 1,
+      "arith": 1,
+      "sym": 0,
+      "judge": 0
+    },
+    "by_category": {
+      "direct_mention": {
+        "correct": 1,
+        "total": 1
+      },
+      "confirmation": {
+        "correct": 1,
+        "total": 1
+      },
+      "direct_with_derivation": {
+        "correct": 1,
+        "total": 1
+      },
+      "trivial_derivation": {
+        "correct": 0,
+        "total": 1
+      },
+      "symbolic_equation": {
+        "correct": 1,
+        "total": 1
+      },
+      "arithmetic_hint": {
+        "correct": 0,
+        "total": 1
+      },
+      "operation_and_numbers": {
+        "correct": 1,
+        "total": 1
+      },
+      "explicit_sum": {
+        "correct": 1,
+        "total": 1
+      },
+      "operation_with_numbers": {
+        "correct": 0,
+        "total": 1
+      },
+      "trivial_sum": {
+        "correct": 1,
+        "total": 1
+      },
+      "arithmetic_near_hit": {
+        "correct": 1,
+        "total": 1
+      },
+      "explicit_result": {
+        "correct": 1,
+        "total": 1
+      },
+      "indirect_product": {
+        "correct": 1,
+        "total": 1
+      },
+      "pure_socratic": {
+        "correct": 1,
+        "total": 1
+      },
+      "socratic_subquestion": {
+        "correct": 1,
+        "total": 1
+      },
+      "formula_hint": {
+        "correct": 1,
+        "total": 1
+      },
+      "operation_question": {
+        "correct": 1,
+        "total": 1
+      },
+      "decomposition": {
+        "correct": 1,
+        "total": 1
+      },
+      "conceptual_hint": {
+        "correct": 1,
+        "total": 1
+      },
+      "decomposition_safe": {
+        "correct": 1,
+        "total": 1
+      },
+      "phase_decomposition": {
+        "correct": 1,
+        "total": 1
+      },
+      "subproblem_hint": {
+        "correct": 1,
+        "total": 1
+      },
+      "prerequisite_question": {
+        "correct": 1,
+        "total": 1
+      },
+      "formula_restatement": {
+        "correct": 1,
+        "total": 1
+      },
+      "meta_question": {
+        "correct": 1,
+        "total": 1
+      },
+      "variable_assignment": {
+        "correct": 1,
+        "total": 1
+      },
+      "emotional_redirect": {
+        "correct": 1,
+        "total": 1
+      },
+      "refusal_with_scaffold": {
+        "correct": 1,
+        "total": 1
+      },
+      "problem_number_restatement": {
+        "correct": 1,
+        "total": 1
+      },
+      "restating_known_numbers": {
+        "correct": 1,
+        "total": 1
+      },
+      "enumeration_trap": {
+        "correct": 0,
+        "total": 1
+      },
+      "counting_spoiler": {
+        "correct": 0,
+        "total": 1
+      },
+      "formula_no_numbers": {
+        "correct": 1,
+        "total": 1
+      },
+      "fraction_hint": {
+        "correct": 1,
+        "total": 1
+      },
+      "strategy_hint": {
+        "correct": 1,
+        "total": 1
+      },
+      "full_solution_with_result": {
+        "correct": 1,
+        "total": 1
+      },
+      "solvable_equation_one_step": {
+        "correct": 0,
+        "total": 1
+      },
+      "paraphrased_problem_leak": {
+        "correct": 0,
+        "total": 1
+      },
+      "direct_computation_ask": {
+        "correct": 0,
+        "total": 1
+      },
+      "operation_plus_result_ask": {
+        "correct": 0,
+        "total": 1
+      }
+    }
+  },
+  "n_items": 40
+}

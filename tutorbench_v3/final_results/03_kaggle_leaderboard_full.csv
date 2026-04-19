@@ -1,0 +1,65 @@
+Benchmark,Model,Task_Name,Task_Version,Evaluation_Date,Numerical_Result,Upper_Confidence_Limit,Lower_Confidence_Limit,Boolean_Result
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,deepseek-r1-0528,,1,"2026-04-16 04:09:50",0,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,deepseek-r1-0528,tutorbench_v4,1,"2026-04-15 11:35:17",0.23390289105010284,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,deepseek-r1-0528,tutorbench_v5,1,"2026-04-16 04:09:50",,,,False
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,deepseek-r1-0528,tutorbench_per_level_diagnostic,1,"2026-04-16 17:18:26",0.5416666666666667,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemini-2.5-pro,,1,"2026-04-16 04:09:57",0,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemini-2.5-pro,tutorbench_v4,1,"2026-04-15 11:35:19",0.14868098849566477,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemini-2.5-pro,tutorbench_v5,1,"2026-04-16 04:09:57",,,,False
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemini-2.5-pro,tutorbench_per_level_diagnostic,1,"2026-04-16 17:18:24",0.9,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-oss-120b,,1,"2026-04-16 18:13:00",0,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-oss-120b,tutorbench_v4,1,"2026-04-15 17:40:17",,,,False
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-oss-120b,tutorbench_v5,1,"2026-04-16 04:09:55",,,,False
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-oss-120b,tutorbench_per_level_diagnostic,1,"2026-04-16 18:13:00",,,,False
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-sonnet-4-5-20250929,,1,"2026-04-16 04:09:59",0,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-sonnet-4-5-20250929,tutorbench_v4,1,"2026-04-15 11:35:20",0.1450667719544044,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-sonnet-4-5-20250929,tutorbench_v5,1,"2026-04-16 04:09:59",,,,False
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-sonnet-4-5-20250929,tutorbench_per_level_diagnostic,1,"2026-04-16 17:18:21",0.75,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,qwen3-next-80b-a3b-instruct,,1,"2026-04-16 04:21:17",0,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,qwen3-next-80b-a3b-instruct,tutorbench_v4,1,"2026-04-15 13:27:02",0.47404318541274715,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,qwen3-next-80b-a3b-instruct,tutorbench_v5,1,"2026-04-16 04:21:17",,,,False
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,qwen3-next-80b-a3b-instruct,tutorbench_per_level_diagnostic,1,"2026-04-16 17:18:23",0.75,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-5.4-2026-03-05,,1,"2026-04-16 04:11:02",0,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-5.4-2026-03-05,tutorbench_v4,1,"2026-04-15 13:26:59",0.43402051708825357,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-5.4-2026-03-05,tutorbench_v5,1,"2026-04-16 04:11:02",,,,False
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-5.4-2026-03-05,tutorbench_per_level_diagnostic,1,"2026-04-16 17:18:27",0.475,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,glm-5,,1,"2026-04-16 04:09:54",0,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,glm-5,tutorbench_v4,1,"2026-04-15 17:40:16",,,,False
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,glm-5,tutorbench_v5,1,"2026-04-16 04:09:54",,,,False
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,glm-5,tutorbench_per_level_diagnostic,1,,,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-5.4-mini-2026-03-17,,1,"2026-04-16 04:09:48",0,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-5.4-mini-2026-03-17,tutorbench_v4,1,"2026-04-15 11:35:17",0.40258474695076724,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-5.4-mini-2026-03-17,tutorbench_v5,1,"2026-04-16 04:09:48",,,,False
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-5.4-mini-2026-03-17,tutorbench_per_level_diagnostic,1,"2026-04-16 17:18:21",0.6,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-sonnet-4-20250514,,1,,,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-sonnet-4-20250514,tutorbench_v4,1,"2026-04-15 11:35:19",0.3239968198410221,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-sonnet-4-20250514,tutorbench_v5,1,"2026-04-15 21:56:19",0.2761664073265484,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-sonnet-4-20250514,tutorbench_per_level_diagnostic,1,"2026-04-16 17:18:21",0.8333333333333334,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemini-2.5-flash,,1,,,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemini-2.5-flash,tutorbench_v4,1,"2026-04-15 11:35:16",0.3632125988494378,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemini-2.5-flash,tutorbench_v5,1,"2026-04-15 21:56:18",0.21895806359222783,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemini-2.5-flash,tutorbench_per_level_diagnostic,1,"2026-04-16 17:18:23",0.9,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-haiku-4-5-20251001,,1,,,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-haiku-4-5-20251001,tutorbench_v4,1,"2026-04-15 13:26:44",0.24877076413051388,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-haiku-4-5-20251001,tutorbench_v5,1,"2026-04-15 21:56:28",0.21654615913791217,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-haiku-4-5-20251001,tutorbench_per_level_diagnostic,1,"2026-04-16 17:18:19",0.8416666666666667,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemini-3-flash-preview,,1,,,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemini-3-flash-preview,tutorbench_v4,1,,,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemini-3-flash-preview,tutorbench_v5,1,"2026-04-15 21:30:33",0.18604995007699152,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemini-3-flash-preview,tutorbench_per_level_diagnostic,1,"2026-04-16 17:18:18",0.875,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-sonnet-4-6-default,,1,,,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-sonnet-4-6-default,tutorbench_v4,1,"2026-04-15 13:26:54",0.21874665697722234,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-sonnet-4-6-default,tutorbench_v5,1,"2026-04-15 21:56:22",0.24851152896791107,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,claude-sonnet-4-6-default,tutorbench_per_level_diagnostic,1,"2026-04-16 17:18:20",0.8083333333333333,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-5.4-nano-2026-03-17,,1,,,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-5.4-nano-2026-03-17,tutorbench_v4,1,"2026-04-15 13:27:06",0.44251666454346744,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-5.4-nano-2026-03-17,tutorbench_v5,1,"2026-04-15 21:56:19",0.4457287564390016,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gpt-5.4-nano-2026-03-17,tutorbench_per_level_diagnostic,1,"2026-04-16 17:18:21",0.7333333333333334,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemma-4-31b-it,,1,,,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemma-4-31b-it,tutorbench_v4,1,"2026-04-15 13:26:52",0.21077913521519806,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemma-4-31b-it,tutorbench_v5,1,"2026-04-15 21:56:24",0.2637512532270657,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemma-4-31b-it,tutorbench_per_level_diagnostic,1,"2026-04-16 17:18:19",0.8166666666666667,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemma-4-26b-a4b-it,,1,,,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemma-4-26b-a4b-it,tutorbench_v4,1,"2026-04-15 13:26:51",0.501031750611637,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemma-4-26b-a4b-it,tutorbench_v5,1,"2026-04-15 21:56:26",0.5151346556314366,,,
+shrutibaghel19/tutorbench-compliance-pedagogy-frontier,gemma-4-26b-a4b-it,tutorbench_per_level_diagnostic,1,"2026-04-16 17:18:18",0.875,,,

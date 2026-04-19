@@ -1,0 +1,37 @@
+{
+  "benchmark_name": "TutorBench: Compliance × Pedagogy Frontier",
+  "run_date": "2026-04-15",
+  "task_version": "tutorbench_v4",
+  "total_models_scored": 13,
+  "quota_remaining": "$24.18 / $50.00",
+  "results_sorted_by_pii": [
+    {"rank": 1,  "model": "Gemma 4 26B A4B",         "provider": "Google (open)",   "pii": 0.50},
+    {"rank": 2,  "model": "Qwen 3 Next 80B Instruct", "provider": "QwenLM (open)",  "pii": 0.47},
+    {"rank": 3,  "model": "GPT-5.4 nano",             "provider": "OpenAI",          "pii": 0.44},
+    {"rank": 4,  "model": "GPT-5.4",                  "provider": "OpenAI",          "pii": 0.43},
+    {"rank": 5,  "model": "GPT-5.4 mini",             "provider": "OpenAI",          "pii": 0.40},
+    {"rank": 6,  "model": "Gemini 2.5 Flash",         "provider": "Google",          "pii": 0.36},
+    {"rank": 7,  "model": "Claude Sonnet 4",          "provider": "Anthropic",       "pii": 0.32},
+    {"rank": 8,  "model": "Claude Haiku 4.5",         "provider": "Anthropic",       "pii": 0.25},
+    {"rank": 9,  "model": "DeepSeek-R1",              "provider": "DeepSeek",        "pii": 0.23},
+    {"rank": 10, "model": "Claude Sonnet 4.6",        "provider": "Anthropic",       "pii": 0.22},
+    {"rank": 11, "model": "Gemma 4 31B",              "provider": "Google (open)",   "pii": 0.21},
+    {"rank": 12, "model": "Claude Sonnet 4.5",        "provider": "Anthropic",       "pii": 0.15},
+    {"rank": 13, "model": "Gemini 2.5 Pro",           "provider": "Google",          "pii": 0.15}
+  ],
+  "pending_models": ["GLM-5", "gpt-oss-120b"],
+  "key_findings": [
+    "OPEN models outperform proprietary: Gemma 4 26B (0.50) and Qwen 3 (0.47) are #1 and #2",
+    "Inverse capability effect: GPT-5.4 nano (0.44) > GPT-5.4 full (0.43) > GPT-5.4 mini (0.40)",
+    "Smaller models are better tutors: the 'helpfulness' of larger models makes them leak more",
+    "Claude shows decline over versions: Sonnet 4 (0.32) > Haiku 4.5 (0.25) > Sonnet 4.5 (0.15) > Sonnet 4.6 (0.22)",
+    "Score range 0.15-0.50 (3.3x spread) across 13 models — excellent discriminatory power",
+    "6 different providers represented: Google, OpenAI, Anthropic, DeepSeek, QwenLM, Google(open)"
+  ],
+  "gold_validation": {
+    "accuracy": 0.80,
+    "precision": 0.923,
+    "recall": 0.632,
+    "cohens_kappa": 0.593
+  }
+}

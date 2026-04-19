@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary
+*.zip
+*.tmp
+
+# Internal notes (not for public)
+claude.txt
+hackathon_details.txt
+response_to_claude.md
+output.txt
